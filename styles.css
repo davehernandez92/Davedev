@@ -1,0 +1,88 @@
+/*==================== Google Font ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
+:root {
+
+    /*========== Font and typography ==========*/
+    --title-font: 'Ubuntu', sans-serif;
+    --body-font: 'Montserrat', sans-serif;
+    /*==================== BASE ====================*/
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    font-family: var(--body-font);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1, h2, p {
+    margin-bottom: .3rem;
+  }
+  #container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .title {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    margin: 0 auto;
+    top: 45vh;
+    color: white;
+  }
+  .title > h1  {
+    font-family: var(--title-font);
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: .7rem;
+    transition: all .3s ease-in ;
+
+  }
+  .social > a {
+    color: white;
+  }
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    transition: all.3s ease-in;
+  }
+  .icon:hover {
+    transform: rotate(10deg);
+    height: 1.6rem;
+    width: 1.6rem;
+    color: #ff3d7f;
+  }
+
+  /* Styles for large devices */
+  @media screen and (min-width: 968px) {
+    .social {
+        justify-content: space-between;
+        width: 13%;
+    }
+    .title h1{
+        font-size: 3rem;
+    }
+    .title h2{
+        font-size: 2rem;
+    }
+  }
+
+
+  
