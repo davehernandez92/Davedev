@@ -13,7 +13,7 @@ function clearInput(){
 
 /*=============== INPUT VALIDATION===============*/
 function checkInput(){
-    if (user_name.value|| user_email.value || message.value === '') {
+    if (user_name.value || user_email.value || message.value === '') {
         sendAlert('Please fill all inputs ')
     }
 }
