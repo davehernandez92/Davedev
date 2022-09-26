@@ -443,6 +443,12 @@ body.light-theme {
   background-color: var(--container-color);
   border-radius: 0.75rem;
   padding: 0.75rem 0.5rem;
+  transition: all .3s ease;
+}
+.about__box:hover{
+  cursor: pointer;
+  background-color: rgb(42, 41, 41);
+  
 }
 
 .about__icon {
@@ -1011,6 +1017,7 @@ body.light-theme {
   .about__info{
     justify-content: initial;
   }
+  
   .about__box{
     text-align: center;
     padding: 1rem 1.25rem;
@@ -1018,6 +1025,7 @@ body.light-theme {
   .about__description{
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
+    max-width: 90%;
   }
 
   .skills__container{

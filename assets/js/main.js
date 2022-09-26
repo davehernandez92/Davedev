@@ -32,7 +32,21 @@ modalClose.forEach((mc) => {
     })
 })
       
+/*=============== CLICK EVENT ON ABOUT ME ===============*/
+const experience = document.getElementById('experience');
+const projects = document.getElementById('projects');
+const ibm = document.getElementById('ibm');
 
+
+experience.addEventListener('click', () => {
+    window.open("https://github.com/davehernandez92");
+});
+projects.addEventListener('click', () => {
+    window.open("https://github.com/davehernandez92?tab=repositories");
+});
+ibm.addEventListener('click', () => {
+    window.open("https://www.credly.com/badges/62fd00b2-e802-4642-8e03-d9b2007168f9/print");
+});
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
