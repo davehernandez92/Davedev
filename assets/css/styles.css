@@ -99,6 +99,9 @@ ul {
 a {
   text-decoration: none;
 }
+.link {
+  color: rgb(129, 158, 198);
+}
 
 button {
   cursor: pointer;
@@ -134,6 +137,10 @@ body.light-theme {
     Color changes in some parts of 
     the website, in light theme
 ==========*/
+
+.light-theme .link {
+  color: rgb(23, 23, 23);
+}
 
 .light-theme .scroll-header {
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
